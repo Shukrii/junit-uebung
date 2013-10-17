@@ -11,10 +11,17 @@ public class Teacher extends Person {
 	public void setShortSign(String shortSign) {
 		this.shortSign = shortSign;
 	}
+	
+
+	public String getShortSign() {
+		return shortSign;
+	}
+
+
 
 	@Override
 	public String toString() {
 		// TODO missing implementation
-		return super.toString();
+		return super.toString() + getShortSign();
 	}
 }

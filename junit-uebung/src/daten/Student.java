@@ -30,10 +30,12 @@ public class Student extends Person implements Comparable<Student> {
 		this.selfEntitled = selfEntitled;
 	}
 
-	public Date getBirthDate() {
-        return birthDate;
-	}
 	
+	
+	public Date getBirthDate() {
+		return birthDate;
+	}
+
 	public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
 	}

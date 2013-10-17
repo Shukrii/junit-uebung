@@ -10,10 +10,7 @@ import org.junit.Test;
 
 import daten.Student;
 
-/**
- * @author Patrick
- *
- */
+
 public class StudentTest {
 
         /**
@@ -35,6 +32,8 @@ public class StudentTest {
          */
         @Test
         public void testCompareTo() {
+        		@SuppressWarnings("deprecation")
+				Student s111= new Student("Johny","English",true,new Date(1990,4,5));
                 Student s11 = new Student("Max1","Muster",true,new Date(1996,5,3));
                 Student s21 = new Student("Max2","Muster",true,new Date(1996,5,5));
                 Student s31 = new Student("Max3","Muster",true,new Date(1996,5,5));
