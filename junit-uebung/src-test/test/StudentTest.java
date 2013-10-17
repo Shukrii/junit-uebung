@@ -41,8 +41,8 @@ public class StudentTest {
                 Student s41 = new Student("Max4","Muster",true,new Date(1996,5,5));
                 Student s12 = new Student("Max","Muster",true,new Date(1996,5,3));
                 Student s22 = new Student("Max","Muster",true,new Date(1996,5,5));
-                Student s32 = new Student("Anna","Muster",true,new Date(1996,5,5));
-                Student s42 = new Student("Johannes","Anders",true,new Date(1996,5,5));
+                Student s32 = new Student("Maxi","Muster",true,new Date(1996,5,5));
+                Student s42 = new Student("Max9","Musterman",true,new Date(1996,5,5));
                 
                 /**
                  * Testen ob Gleichheit erkannt wird
